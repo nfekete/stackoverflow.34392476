@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<for:document xmlns="urn:stackoverflow:exportnamespace" xmlns:for="urn:stackoverflow:documentnamespace">
+    <Export>
+        <ExportKopf>
+            <Quelle>lokal</Quelle>
+        </ExportKopf>
+        <ExportInhalt/>
+        <SchemaVersion>bec811a9807a8c8da403d70b9b5e22ad</SchemaVersion>
+    </Export>
+</for:document>
