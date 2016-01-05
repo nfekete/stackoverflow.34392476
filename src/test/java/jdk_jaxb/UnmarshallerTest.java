@@ -3,20 +3,20 @@ package jdk_jaxb;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
-import model.eclipselink.Document;
-import model.sun.*;
-import org.junit.Test;
-
 import java.io.InputStream;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
+import org.junit.Test;
+
+import model.sun.Document;
+
 public class UnmarshallerTest {
 
 	@Test
-	public void unmarshalDocumentAnyType() {
+	public void unmarshalDocument() {
 		try {
 			JAXBContext jaxbContext = JAXBContext.newInstance(Document.class);
 			System.out.println("Context class: " + jaxbContext.getClass());

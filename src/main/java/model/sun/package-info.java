@@ -1,5 +1,5 @@
 @XmlSchema(
-	namespace = "urn:stackoverflow:exportnamespace",
+	namespace = "urn:stackoverflow:documentnamespace",
     xmlns = {
         @XmlNs(prefix = "for", namespaceURI = "urn:stackoverflow:documentnamespace"),
         @XmlNs(prefix = "", namespaceURI = "urn:stackoverflow:exportnamespace")

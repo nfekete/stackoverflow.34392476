@@ -3,14 +3,15 @@ package moxy_jaxb;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
-import model.eclipselink.*;
-import org.junit.Test;
-
 import java.io.InputStream;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
+
+import org.junit.Test;
+
+import model.eclipselink.Document;
 
 public class UnmarshallerTest {
 
